@@ -368,7 +368,7 @@ describe('Object Copy', () => {
                         done();
                     });
                 });
-            }).timeout(60000);
+            }).timeout(100000);
 
         it('should return error if copying object w/ > 2KB ' +
         'user-defined md and REPLACE directive',
@@ -392,7 +392,7 @@ describe('Object Copy', () => {
                         done();
                     });
                 });
-            }).timeout(60000);
+            }).timeout(100000);
 
         it('should copy an object from a source to the same destination ' +
             '(update metadata)', done => {
